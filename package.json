@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "quickpoll",
   "private": true,
   "version": "0.0.0",
@@ -25,5 +26,23 @@
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^16.0.0",
     "vite": "^6.3.5"
+=======
+  "name": "quickpoll-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.2"
+>>>>>>> 95a30529b9a5d2d2edf74f7e6be44edf3c73c5a1
   }
 }
