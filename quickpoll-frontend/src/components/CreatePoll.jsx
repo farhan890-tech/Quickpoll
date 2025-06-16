@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { createPoll } from "/src/serv/API.js";
+import { createPoll } from "../services/api.js";
 
 const CreatePoll = () => {
   const [question, setQuestion] = useState("");

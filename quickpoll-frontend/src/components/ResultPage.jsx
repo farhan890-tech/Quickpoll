@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-
-import { getPoll } from "/src/serv/API.js";
-
+import { getPoll } from "../services/api.js";
 
 const ResultPage = () => {
   const { id } = useParams();
@@ -74,3 +72,4 @@ const ResultPage = () => {
 };
 
 export default ResultPage;
+

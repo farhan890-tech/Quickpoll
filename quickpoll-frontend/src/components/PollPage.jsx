@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { getPoll, votePoll } from"/src/serv/API.js";
+import { getPoll, votePoll } from "../services/api.js";
 
 const PollPage = () => {
   const { id } = useParams();
